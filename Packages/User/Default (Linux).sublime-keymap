@@ -1,0 +1,22 @@
+[
+	{ "keys": ["f5"], "command": "revert" },
+	{ "keys": ["alt+left"], "command": "move", "args": {"by": "words", "forward": false} },
+	{ "keys": ["alt+right"], "command": "move", "args": {"by": "word_ends", "forward": true} },
+	{ "keys": ["alt+shift+left"], "command": "move", "args": {"by": "words", "forward": false, "extend": true} },
+	{ "keys": ["alt+shift+right"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true} },
+	{ "keys": ["ctrl+left"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["ctrl+right"], "command": "move", "args": {"by": "subword_ends", "forward": true} },
+	{ "keys": ["ctrl+shift+left"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true} },
+	{ "keys": ["ctrl+shift+right"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true} },
+	{ "keys": ["ctrl+o"], "command": "prompt_open_folder" },
+	{ "keys": ["ctrl+alt+m"], "command": "toggle_minimap" },
+	{ "keys": ["shift+ctrl+c"], "command": "close_all" },
+	{ "keys": ["ctrl+f1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]]} },
+	{ "keys": ["ctrl+f2"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]} },
+	{ "keys": ["shift+f2"], "command": "next_bookmark" },
+	{ "keys": ["shift+f1"], "command": "prev_bookmark" },
+	{ "keys": ["f2"], "command": "toggle_bookmark" },
+	{ "keys": ["ctrl+shift+f2"], "command": "clear_bookmarks" },
+	{ "keys": ["ctrl+shift+f11"], "command": "lower_case" },
+	{ "keys": ["ctrl+shift+f12"], "command": "upper_case" }
+]
