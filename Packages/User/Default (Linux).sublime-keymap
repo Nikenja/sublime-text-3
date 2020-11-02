@@ -11,12 +11,10 @@
 	{ "keys": ["ctrl+o"], "command": "prompt_open_folder" },
 	{ "keys": ["ctrl+alt+m"], "command": "toggle_minimap" },
 	{ "keys": ["shift+ctrl+c"], "command": "close_all" },
-	{ "keys": ["ctrl+f1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]]} },
-	{ "keys": ["ctrl+f2"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]} },
-	{ "keys": ["shift+f2"], "command": "next_bookmark" },
-	{ "keys": ["shift+f1"], "command": "prev_bookmark" },
-	{ "keys": ["f2"], "command": "toggle_bookmark" },
-	{ "keys": ["ctrl+shift+f2"], "command": "clear_bookmarks" },
-	{ "keys": ["ctrl+shift+f11"], "command": "lower_case" },
-	{ "keys": ["ctrl+shift+f12"], "command": "upper_case" }
+	{ "keys": ["f1"], "command": "set_layout", "args": {"cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]]} },
+	{ "keys": ["f2"], "command": "set_layout", "args": {"cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]} },
+	{ "keys": ["ctrl+f7"], "command": "refresh_folder_list" },
+	{ "keys": ["f8"], "command": "next_bookmark" },
+	{ "keys": ["shift+f8"], "command": "prev_bookmark" },
+	{ "keys": ["ctrl+f8"], "command": "toggle_bookmark" }
 ]
